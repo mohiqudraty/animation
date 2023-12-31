@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.one {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+.two {
+position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5vh;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  color: white;
+  overflow: hidden;
+  border-bottom: 2px solid white;
+}
+
+.two h3{
+    width: 25%;
+    font-size: 1.5vw;
+    text-align: center;
+    font-weight: 200;
+}
+
+.two h1{
+    width: 25%;
+    font-size: 3vw;
+    text-align: center;
+    line-height: 5vh;
+}
+
+.two h5{
+    margin-top: 35vh;
+    width: 25%;
+    font-size: 1.2vw;
+    text-align: center;
+    }
+    
+
+.three {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+
+
+.img{
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    width: 15vw;
+    height: 30vh;
+    background-color: white;
+    border-radius: 20px;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://img.freepik.com/free-photo/html-system-website-concept_23-2150376770.jpg?size=626&ext=jpg&ga=GA1.1.374244276.1703126606&semt=sph);
+}
+
+#img2{
+    top: 65%;
+    left: 5%;
+    background-image: url(https://img.freepik.com/free-photo/medium-shot-man-working-laptop_23-2150323506.jpg?size=626&ext=jpg&ga=GA1.1.374244276.1703126606&semt=sph);
+}
+#img3{
+    top: 110%;
+    left: 10%;
+    background-image: url(https://img.freepik.com/free-vector/website-development-banner_33099-1687.jpg?size=626&ext=jpg&ga=GA1.1.374244276.1703126606&semt=sph);
+}
+#img4{
+    top: 15%;
+    left: 75%;
+    background-image: url(https://img.freepik.com/free-vector/seo-concept-illustration_24908-61498.jpg?size=626&ext=jpg&ga=GA1.1.374244276.1703126606&semt=sph);
+}
+#img5{
+    top: 85%;
+    left: 65%;
+    background-image: url(https://img.freepik.com/free-vector/hand-drawn-flat-design-api-illustration_52683-84601.jpg?size=626&ext=jpg&ga=GA1.1.374244276.1703126606&semt=sph);
+}
+#img6{
+    top: 120%;
+    left: 70%;
+    background-image: url(https://img.freepik.com/free-vector/desktop-smartphone-app-development_23-2148683810.jpg?size=626&ext=jpg&ga=GA1.1.374244276.1703126606&semt=sph);
+}
